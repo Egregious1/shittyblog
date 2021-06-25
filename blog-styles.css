@@ -43,6 +43,16 @@ header {
   font-size: 0.75em;
   margin: auto;
 }
+
+/* images in entries will be altered here */
+.postimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
 /* yes i know these next 3 are a shit way to write this...will clean up at some point */
 /* started fixing to make a sticky nav at the top of page.  */
 .navbar li {
