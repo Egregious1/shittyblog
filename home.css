@@ -1,0 +1,55 @@
+html {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapertag.com%2Fwallpaper%2Ffull%2Fa%2Fe%2F1%2F118695-popular-black-gradient-background-2560x1600.jpg&f=1&nofb=1);
+  background-size: auto;
+  background-color: darkslateblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* padding-top of 60px seems to make it clear the navbar */
+.header {
+  color: antiquewhite;
+  width: 60%;
+  margin: auto;
+  font-size: 2em;
+  padding-top: 60px;
+}
+
+.tagline {
+  color: antiquewhite;
+  width: 60%;
+  margin: auto;
+  font-size: 1.5em;
+  padding: 25px;
+}
+/* started fixing to make a sticky nav at the top of page.  */
+.navbar li {
+  font-family: "Courier New", Courier, monospace;
+  color: antiquewhite;
+  display: inline-block;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.25em;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #eeeeee;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* psuedo for color changing on hover */
+.navbar a:hover {
+  color: #1c87c9;
+}
